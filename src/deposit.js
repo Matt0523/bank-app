@@ -1,7 +1,5 @@
-function Deposit(){
-  return (
-    <h1>Deposit</h1>
-  )
+function Deposit() {
+  return <h1>Deposit</h1>;
 }
 
-export default Deposit;
+export { Deposit };
