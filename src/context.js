@@ -9,7 +9,7 @@ function Card(props){
       const txt = props.txtcolor ? ' text-' + props.txtcolor: ' text-white';
       return 'card mb-3 ' + bg + txt;
     }
-  
+
     return (
       <div className={classes()} style={{maxWidth: "18rem"}}>
         <div className="card-header">{props.header}</div>
@@ -19,6 +19,8 @@ function Card(props){
           {props.body}
           {props.status && (<div id='createStatus'>{props.status}</div>)}
         </div>
-      </div>      
-    );    
+      </div>
+    );
   }
+
+export default Card;

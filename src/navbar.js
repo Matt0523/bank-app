@@ -25,10 +25,12 @@ function NavBar(){
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#/alldata/">AllData</a>
-          </li>          
+          </li>
         </ul>
       </div>
     </nav>
     </>
   );
 }
+
+export default NavBar;
