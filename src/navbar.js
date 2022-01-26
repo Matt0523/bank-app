@@ -3,9 +3,10 @@ import React from "react";
 function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div className="container-fluid">
+      <nav className="navbar-dark navbar-expand-lg bg-dark">
         <a className="navbar-brand" href="#">
-          BadBank
+          McCutcheon Bank
         </a>
         <button
           className="navbar-toggler"
@@ -52,7 +53,9 @@ function NavBar() {
             </li>
           </ul>
         </div>
+
       </nav>
+      </div>
     </>
   );
 }
