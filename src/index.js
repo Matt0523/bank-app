@@ -10,9 +10,8 @@ import { Withdraw } from "./withdraw";
 import { Balance } from "./balance";
 import { AllData } from "./alldata";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const UserContext = React.createContext(null);
 
