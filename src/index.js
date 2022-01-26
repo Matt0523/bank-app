@@ -5,10 +5,14 @@ import { NavBar } from "./navbar";
 import { Home } from "./home";
 import { CreateAccount } from "./createaccount";
 import { Login } from "./login";
-import { Deposit } from "./deposit";
+import { Deposit } from "./Deposit/deposit";
 import { Withdraw } from "./withdraw";
 import { Balance } from "./balance";
 import { AllData } from "./alldata";
+
+import "./App.css";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const UserContext = React.createContext(null);
 
@@ -32,10 +36,10 @@ function Spa() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/createaccount/" element={<CreateAccount />} />
-            <Route path="/login/" element={<Login />} />
+            {/* <Route path="/login/" element={<Login />} /> */}
             <Route path="/deposit/" element={<Deposit />} />
             <Route path="/withdraw/" element={<Withdraw />} />
-            <Route path="/balance/" element={<Balance />} />
+            {/* <Route path="/balance/" element={<Balance />} /> */}
             <Route path="/alldata/" element={<AllData />} />
           </Routes>
         </div>
