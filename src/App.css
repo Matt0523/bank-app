@@ -1,0 +1,25 @@
+.deposit-card {
+  width: 30%;
+}
+
+.deposit-balance-row {
+  display: flex;
+}
+
+.deposit-card-title {
+  margin-bottom: 0;
+}
+
+.deposit-card-value {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.deposit-submit {
+  margin-top: 1rem;
+}
+
+.deposit-card-form {
+  margin-top: 5rem;
+}
