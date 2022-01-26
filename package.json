@@ -21,13 +21,17 @@
   },
   "homepage": "https://github.com/Matt0523/bank-app#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
+    "css-loader": "^6.5.1",
     "express": "^4.17.2",
     "nodemon": "^2.0.15",
     "path": "^0.12.7",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.1.1",
     "react-dom": "^17.0.2",
     "react-router": "^6.2.1",
-    "react-router-dom": "^6.2.1"
+    "react-router-dom": "^6.2.1",
+    "style-loader": "^3.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",

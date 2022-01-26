@@ -25,11 +25,11 @@ function NavBar() {
                 Create Account
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#/login/">
                 Login
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#/deposit/">
                 Deposit
@@ -40,11 +40,11 @@ function NavBar() {
                 Withdraw
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#/balance/">
                 Balance
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#/alldata/">
                 AllData
