@@ -30,13 +30,13 @@ function Spa() {
       >
         <div className="container" style={{ padding: "20px" }}>
           <Routes>
-            <Route path="/" exact component={Home} />
-            <Route path="/createaccount/" component={CreateAccount} />
-            <Route path="/login/" component={Login} />
-            <Route path="/deposit/" component={Deposit} />
-            <Route path="/withdraw/" component={Withdraw} />
-            <Route path="/balance/" component={Balance} />
-            <Route path="/alldata/" component={AllData} />
+            <Route path="/" element={<Home />} />
+            <Route path="/createaccount/" element={<CreateAccount />} />
+            <Route path="/login/" element={<Login />} />
+            <Route path="/deposit/" element={<Deposit />} />
+            <Route path="/withdraw/" element={<Withdraw />} />
+            <Route path="/balance/" element={<Balance />} />
+            <Route path="/alldata/" element={<AllData />} />
           </Routes>
         </div>
       </UserContext.Provider>
