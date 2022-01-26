@@ -6,7 +6,7 @@ import { Home } from "./home";
 import { CreateAccount } from "./createaccount";
 import { Login } from "./login";
 import { Deposit } from "./Deposit/deposit";
-import { Withdraw } from "./withdraw";
+import { Withdraw } from "./Withdraw/withdraw";
 import { Balance } from "./balance";
 import { AllData } from "./alldata";
 

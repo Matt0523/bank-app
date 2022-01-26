@@ -6,13 +6,10 @@ function Deposit() {
     <div>
       <h1>Deposit</h1>
       <div className="deposit-container">
-        <DepoMain
-          balanceValue={30.26}
-          depositValue=""
-        />
+        <DepoMain balanceValue={30.26} />
       </div>
     </div>
-    );
+  );
 }
 
 export { Deposit };
