@@ -1,15 +1,16 @@
 import React from "react";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
-import Form from "react-bootstrap/Form-control";
+import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
-function CreateAccount() {
+export function CreateAccount() {
   const [show, setShow] = React.useState(true);
   const [status, setStatus] = React.useState("");
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
+  const UserContext = React.createContext(null); // Had to define UserContext but not sure what it is doing on this page exactly
   const ctx = React.useContext(UserContext);
 
   function validate(field, label) {
@@ -98,5 +99,3 @@ function CreateAccount() {
     />
   );
 }
-
-
