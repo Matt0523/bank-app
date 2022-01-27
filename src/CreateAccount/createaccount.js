@@ -1,5 +1,5 @@
 import React from "react";
-import { CreateAccount } from "./createAccountMain";
+import { CreateAccount } from "./createAccountMain.jsx";
 
 function Account() {
   return (
