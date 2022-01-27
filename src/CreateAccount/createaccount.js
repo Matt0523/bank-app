@@ -1,14 +1,14 @@
 import React from "react";
-import {CreareAccount} from "./createaccountMain"; 
+import { CreateAccount } from "./createAccountMain";
 
 function Account() {
-  return(
-  <div>
-    <h1>Create Account</h1>
-    <div className="deposit-container">
-    <CreareAccount/>
+  return (
+    <div>
+      <h1>Create Account</h1>
+      <div className="deposit-container">
+        <CreateAccount />
+      </div>
     </div>
-  </div>
   );
 }
 

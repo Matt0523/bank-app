@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./navbar";
 import { Home } from "./home";
-import { CreateAccount } from "./createaccount";
+import { Account } from "./CreateAccount/createAccount";
 import { Login } from "./login";
 import { Deposit } from "./Deposit/deposit";
 import { Withdraw } from "./Withdraw/withdraw";
@@ -34,7 +34,7 @@ function Spa() {
         <div className="container" style={{ padding: "20px" }}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/createaccount/" element={<CreateAccount />} />
+            <Route path="/createaccount/" element={<Account />} />
             {/* <Route path="/login/" element={<Login />} /> */}
             <Route path="/deposit/" element={<Deposit />} />
             <Route path="/withdraw/" element={<Withdraw />} />
